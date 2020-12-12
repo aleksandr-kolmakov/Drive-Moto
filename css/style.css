@@ -103,6 +103,10 @@ body{
     right: -14px;
 }
 
+.header__bottom{
+    margin-bottom: 78px;
+}
+
 .menu-bottom__list{
     display: flex;
     justify-content: space-around;
@@ -136,8 +140,7 @@ body{
 }
 
 .menu-bottom__link:hover{
-    font-family: 'FProDisplay-Semibold' sans-serif;
-    font-weight: 600;
+    color: #1C62CD;
     
 }
 .menu-bottom__link:hover::before{
