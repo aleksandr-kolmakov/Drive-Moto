@@ -1,0 +1,35 @@
+@font-face{
+    font-family: 'FProDisplay-Regular' sans-serif;
+    src: url('../fonts/SFProDisplay-Regular.woff2') format('woff2'),
+         url('../fonts/SFProDisplay-Regular.woff') format('woff');
+    font-weight: 400;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+@font-face{
+    font-family: 'FProDisplay-Medium' sans-serif;
+    src: url('../fonts/SFProDisplay-Medium.woff2') format('woff2'),
+         url('../fonts/SFProDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+@font-face{
+    font-family: 'FProDisplay-Semibold' sans-serif;
+    src: url('../fonts/SFProDisplay-Semibold.woff2') format('woff2'),
+         url('../fonts/SFProDisplay-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+@font-face{
+    font-family: 'FProDisplay-Bold' sans-serif;
+    src: url('../fonts/SFProDisplay-Bold.woff2') format('woff2'),
+         url('../fonts/SFProDisplay-Bold.woff') format('woff');
+    font-weight: 700;
+    font-stretch: normal;
+    font-display: swap;
+}

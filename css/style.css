@@ -1,0 +1,152 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+body{
+   color: #2F3035;
+   font-family: 'FProDisplay-Regular' sans-serif;
+   font-size: 20px;
+   line-height: 24px;
+   font-weight: 400;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header__top-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 122px;
+    font-family: 'FProDisplay-Bold' sans-serif;
+    font-weight: 700;
+}
+
+.menu__item{
+    display: inline-block;
+    
+}
+
+.menu__item + .menu__item{
+    padding-left: 50px;
+}
+
+
+
+.header__box{
+    display: flex;
+}
+.header__adress{
+    margin-right: 60px;
+    padding-left: 30px;
+    width: 265px;
+    position: relative;
+}
+.header__adress::before{
+    position: absolute;
+    content: url('');
+    background-image: url(../images/adress-icon.svg);
+    width: 30px;
+    height: 30px;
+    left: 0;
+    top: -10px;
+}
+.user-list{
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+.user-list__item{ 
+    padding-right: 10px;
+}
+.basket{
+    position: relative;
+}
+
+.basket__num{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #1C62CD;
+    
+    font-family: 'FProDisplay-Medium' sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    bottom: -14px;
+    right: -14px;
+}
+
+.menu-bottom__list{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F0F0F4;
+    align-items: center;
+    min-height: 53px;   
+}
+.menu-bottom__item{
+    position: relative;
+}
+
+.menu-bottom__link{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .3s;
+    font-weight: 400;
+    padding: 15px 0 14px;
+}
+.menu-bottom__link::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    left: auto;
+    right: 0;
+    background-color: #1C62CD;
+    height: 3px;
+    bottom: -2px;
+    transition: all .3s;
+}
+
+.menu-bottom__link:hover{
+    font-family: 'FProDisplay-Semibold' sans-serif;
+    font-weight: 600;
+    
+}
+.menu-bottom__link:hover::before{
+    width: 100%;
+    right: auto;
+    left: 0;
+}
+
+
+
+
+
